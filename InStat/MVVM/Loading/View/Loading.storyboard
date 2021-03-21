@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xqO-zH-doc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="Ac7-rj-lWw">
+            <objects>
+                <viewController storyboardIdentifier="LoadingViewController" id="xqO-zH-doc" customClass="LoadingViewController" customModule="InStat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CR3-99-X9z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8PJ-Ib-qe9">
+                                <rect key="frame" x="20" y="261" width="374" height="374"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8PJ-Ib-qe9" secondAttribute="height" id="ARn-rd-T9Z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F6x-6F-bdK"/>
+                        <color key="backgroundColor" name="oneGradient"/>
+                        <constraints>
+                            <constraint firstItem="8PJ-Ib-qe9" firstAttribute="centerY" secondItem="CR3-99-X9z" secondAttribute="centerY" id="2Uo-zp-CET"/>
+                            <constraint firstItem="8PJ-Ib-qe9" firstAttribute="centerX" secondItem="CR3-99-X9z" secondAttribute="centerX" id="8NM-Ab-5Ex"/>
+                            <constraint firstItem="8PJ-Ib-qe9" firstAttribute="leading" secondItem="F6x-6F-bdK" secondAttribute="leading" constant="20" id="SbT-Zp-ONq"/>
+                            <constraint firstItem="F6x-6F-bdK" firstAttribute="trailing" secondItem="8PJ-Ib-qe9" secondAttribute="trailing" constant="20" id="g4G-wm-WVV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lottieView" destination="8PJ-Ib-qe9" id="dgF-EJ-Yxq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOt-Lw-vyq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="100"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="oneGradient">
+            <color red="0.11800000071525574" green="0.22400000691413879" blue="0.22400000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

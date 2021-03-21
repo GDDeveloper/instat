@@ -1,0 +1,8 @@
+
+import UIKit
+
+enum LoadingData {
+	
+	
+}
+
