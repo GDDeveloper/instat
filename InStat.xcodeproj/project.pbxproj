@@ -306,9 +306,9 @@
 		82E7251E2605D7E300EBC8A9 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				82E7264726062E3E00EBC8A9 /* VideoPlay */,
 				82E7261D2606243D00EBC8A9 /* Loading */,
 				82E725202605D7EB00EBC8A9 /* Main */,
+				82E7264726062E3E00EBC8A9 /* VideoPlay */,
 				82E7252B2605D83E00EBC8A9 /* LaunchScreens */,
 			);
 			path = MVVM;
