@@ -1,6 +1,5 @@
 
 import UIKit
-import Protocols
 import AnimatedGradientView
 import NVActivityIndicatorView
 

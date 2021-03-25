@@ -1,6 +1,5 @@
 
 import Foundation
-import Protocols
 import NVActivityIndicatorView
 
 class MainViewModel: VMManagers {

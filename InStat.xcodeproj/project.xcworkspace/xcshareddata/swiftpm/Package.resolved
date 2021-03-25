@@ -29,15 +29,6 @@
         }
       },
       {
-        "package": "Protocols",
-        "repositoryURL": "https://github.com/AleksanderDeveloper/Protocols.git",
-        "state": {
-          "branch": null,
-          "revision": "6d0e6d834f5ef77f70c58a8632b287df56bf8379",
-          "version": "1.0.6"
-        }
-      },
-      {
         "package": "QuickLayout",
         "repositoryURL": "https://github.com/huri000/QuickLayout",
         "state": {

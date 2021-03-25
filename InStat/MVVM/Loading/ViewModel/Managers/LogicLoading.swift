@@ -1,5 +1,4 @@
 import Foundation
-import Protocols
 
 class LogicLoading: VMManager {
   

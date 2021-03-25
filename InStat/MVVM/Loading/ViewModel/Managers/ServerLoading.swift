@@ -1,5 +1,4 @@
 import UIKit
-import Protocols
 
 class ServerLoading: VMManager {
   

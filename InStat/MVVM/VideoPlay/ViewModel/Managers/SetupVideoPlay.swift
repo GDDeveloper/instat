@@ -1,7 +1,6 @@
 
 import UIKit
 import AVKit
-import Protocols
 
 class SetupVideoPlay: VMManager {
   

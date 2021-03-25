@@ -1,6 +1,5 @@
 
 import Foundation
-import Protocols
 
 class LoadingManagers: VMManagers {
   

@@ -11,6 +11,8 @@
 		821599E4260736B600FAF4A4 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 821599E3260736B600FAF4A4 /* NVActivityIndicatorView */; };
 		821599E6260736B600FAF4A4 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 821599E5260736B600FAF4A4 /* NVActivityIndicatorViewExtended */; };
 		821599E926073A2A00FAF4A4 /* Extension + Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821599E826073A2A00FAF4A4 /* Extension + Date.swift */; };
+		82C49A46260CFE8F00F44D2C /* VMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C49A45260CFE8F00F44D2C /* VMManager.swift */; };
+		82C49A49260CFE9A00F44D2C /* VMManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C49A48260CFE9A00F44D2C /* VMManagers.swift */; };
 		82E725072605D6C600EBC8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725062605D6C600EBC8A9 /* AppDelegate.swift */; };
 		82E725102605D6C700EBC8A9 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E7250F2605D6C700EBC8A9 /* AppIcon.xcassets */; };
 		82E725132605D6C700EBC8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E725112605D6C700EBC8A9 /* LaunchScreen.storyboard */; };
@@ -30,7 +32,6 @@
 		82E725522605E34800EBC8A9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725472605E34800EBC8A9 /* MainViewModel.swift */; };
 		82E725532605E34800EBC8A9 /* ServerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725482605E34800EBC8A9 /* ServerMain.swift */; };
 		82E725582605E38400EBC8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E725572605E38400EBC8A9 /* Main.storyboard */; };
-		82E7255C2605E3CE00EBC8A9 /* Protocols in Frameworks */ = {isa = PBXBuildFile; productRef = 82E7255B2605E3CE00EBC8A9 /* Protocols */; };
 		82E7256F2605E8DE00EBC8A9 /* URLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725602605E8DE00EBC8A9 /* URLString.swift */; };
 		82E725702605E8DE00EBC8A9 /* URLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725612605E8DE00EBC8A9 /* URLType.swift */; };
 		82E725712605E8DE00EBC8A9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E725622605E8DE00EBC8A9 /* NetworkManager.swift */; };
@@ -133,6 +134,8 @@
 /* Begin PBXFileReference section */
 		821599DF26072E8E00FAF4A4 /* ErrorHandlerVideoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerVideoURLs.swift; sourceTree = "<group>"; };
 		821599E826073A2A00FAF4A4 /* Extension + Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Date.swift"; sourceTree = "<group>"; };
+		82C49A45260CFE8F00F44D2C /* VMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMManager.swift; sourceTree = "<group>"; };
+		82C49A48260CFE9A00F44D2C /* VMManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMManagers.swift; sourceTree = "<group>"; };
 		82E725032605D6C600EBC8A9 /* InStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E725062605D6C600EBC8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82E7250F2605D6C700EBC8A9 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
@@ -257,7 +260,6 @@
 				821599E6260736B600FAF4A4 /* NVActivityIndicatorViewExtended in Frameworks */,
 				82E7260D2606175900EBC8A9 /* AnimatedGradientView in Frameworks */,
 				821599E4260736B600FAF4A4 /* NVActivityIndicatorView in Frameworks */,
-				82E7255C2605E3CE00EBC8A9 /* Protocols in Frameworks */,
 				82E726412606289300EBC8A9 /* SnapKit in Frameworks */,
 				82E725952605E9B700EBC8A9 /* Reachability in Frameworks */,
 				82E7259E2605EAC800EBC8A9 /* SwiftEntryKit in Frameworks */,
@@ -473,6 +475,8 @@
 				82E7258C2605E93100EBC8A9 /* LoadNidoble.swift */,
 				82E725B72605EB7400EBC8A9 /* URLCreatoble.swift */,
 				82E725DB2605EC5600EBC8A9 /* Sessionoble.swift */,
+				82C49A45260CFE8F00F44D2C /* VMManager.swift */,
+				82C49A48260CFE9A00F44D2C /* VMManagers.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -813,7 +817,6 @@
 			);
 			name = InStat;
 			packageProductDependencies = (
-				82E7255B2605E3CE00EBC8A9 /* Protocols */,
 				82E725942605E9B700EBC8A9 /* Reachability */,
 				82E7259D2605EAC800EBC8A9 /* SwiftEntryKit */,
 				82E7260C2606175900EBC8A9 /* AnimatedGradientView */,
@@ -850,7 +853,6 @@
 			);
 			mainGroup = 82E724FA2605D6C600EBC8A9;
 			packageReferences = (
-				82E7255A2605E3CE00EBC8A9 /* XCRemoteSwiftPackageReference "Protocols" */,
 				82E725932605E9B700EBC8A9 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
 				82E7259C2605EAC800EBC8A9 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */,
 				82E7260B2606175900EBC8A9 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
@@ -924,6 +926,7 @@
 				82E7261B2606241400EBC8A9 /* GDLottieSetup.swift in Sources */,
 				82E7257D2605E8DE00EBC8A9 /* URLs.swift in Sources */,
 				82E725F22605FB4500EBC8A9 /* DECMatchData.swift in Sources */,
+				82C49A46260CFE8F00F44D2C /* VMManager.swift in Sources */,
 				82E725D92605EC1A00EBC8A9 /* Extension + UILabel.swift in Sources */,
 				82E725752605E8DE00EBC8A9 /* Cookie.swift in Sources */,
 				82E7254A2605E34800EBC8A9 /* SetupMain.swift in Sources */,
@@ -932,6 +935,7 @@
 				82E726312606283400EBC8A9 /* RouterLoading.swift in Sources */,
 				82E7266126062ED100EBC8A9 /* ServerVideoPlay.swift in Sources */,
 				82E7262F2606283400EBC8A9 /* LogicLoading.swift in Sources */,
+				82C49A49260CFE9A00F44D2C /* VMManagers.swift in Sources */,
 				82E725372605E0DC00EBC8A9 /* Extension + UIViewController.swift in Sources */,
 				82E725342605E0CA00EBC8A9 /* Extension + UIStoryboard.swift in Sources */,
 				82E7265C26062ED100EBC8A9 /* VideoPlayData.swift in Sources */,
@@ -1200,14 +1204,6 @@
 				minimumVersion = 5.1.1;
 			};
 		};
-		82E7255A2605E3CE00EBC8A9 /* XCRemoteSwiftPackageReference "Protocols" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AleksanderDeveloper/Protocols.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.6;
-			};
-		};
 		82E725932605E9B700EBC8A9 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
@@ -1260,11 +1256,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 821599E2260736B600FAF4A4 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
 			productName = NVActivityIndicatorViewExtended;
-		};
-		82E7255B2605E3CE00EBC8A9 /* Protocols */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 82E7255A2605E3CE00EBC8A9 /* XCRemoteSwiftPackageReference "Protocols" */;
-			productName = Protocols;
 		};
 		82E725942605E9B700EBC8A9 /* Reachability */ = {
 			isa = XCSwiftPackageProductDependency;

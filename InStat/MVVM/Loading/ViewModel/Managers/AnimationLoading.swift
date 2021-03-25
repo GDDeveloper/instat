@@ -1,5 +1,4 @@
 import UIKit
-import Protocols
 
 class AnimationLoading: VMManager {
   

@@ -1,6 +1,5 @@
 
 import UIKit
-import Protocols
 
 class PresentLoading: VMManager {
   
