@@ -10,7 +10,7 @@ class VideoPlayManagers: VMManagers {
   let logic    : LogicVideoPlay!
   let animation: AnimationVideoPlay!
   let router   : RouterVideoPlay!
-  
+  //
   init(viewModel: VideoPlayViewModel) {
     
     self.setup     = SetupVideoPlay(viewModel: viewModel)
